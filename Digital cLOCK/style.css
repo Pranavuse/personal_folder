@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #b26464;
+    color: #2c4d6a;
+}
+.head{
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+}
+#clock{
+    width:90%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid beige; */
+}
+#hour{
+    /* border: 1px solid red; */
+    font-size: 20rem;
+    width: 30%;
+    text-align: center;
+
+}
+#minute{
+    /* border: 1px solid red; */
+    font-size: 20rem;
+    width: 30%;
+    text-align: center;
+}
+#sec{
+    /* border: 1px solid red; */
+    font-size: 20rem;
+    width: 30%;
+    text-align: center;
+}
+.dot{
+    font-size: 20rem;
+}
+.am{
+    font-size: 10rem;
+}

@@ -1,0 +1,51 @@
+<div class="card col-lg-4 col-sm-12 col-md-3" style="width: 25rem;">
+        <img src="3.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Healthy Meal</h5>
+          <p class="card-text">Making a reservation at delicious restaurant is easy and takes just a couple of minutes.</p>
+          
+        </div>
+      </div>
+      <div class="card col-lg-4 col-md-3 col-sm-12" style="width: 25rem;">
+        <img src="4.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fast Food</h5>
+          <p class="card-text">Making a reservation at delicious restaurant is easy and takes just a couple of minutes..</p>
+          
+        </div>
+      </div>
+      <div class="card col-lg-4 col-md-3 col-sm-12" style="width: 25rem;">
+        <img src="5.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Delicious Coffee</h5>
+          <p class="card-text">Making a reservation at delicious restaurant is easy and takes just a couple of minutes.</p>
+          
+        </div>
+      </div>
+
+
+
+
+
+      .card{
+    margin: 2% 6%;
+    text-align: center;
+    padding: 47px 22px 36px 22px;
+    float: left;
+   
+}
+.card-img-top{
+    width: auto;
+    align-items: center;
+    margin: auto;
+}
+.card-title{
+    color: #4c302a;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+.card-text{
+    font-size: 1vw;
+    color: #666666;
+}

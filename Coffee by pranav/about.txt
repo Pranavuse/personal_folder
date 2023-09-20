@@ -1,0 +1,82 @@
+<div class="menu">
+    <h1 class="heading">OUR <span>MENU</span></h1>
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="card">
+        <div class="box">
+        <img class="box-img" src="images/menu-1.png">
+        <h3>Tasty and Healthy</h3>
+        <p>$15.99</p></div>
+        
+      </div>
+    </div>
+  
+    <div class="column col-lg-3">
+      <div class="card">
+        <div class="box">
+        <img src="images/menu-2.png">
+        <h3>Tasty and Healthy</h3>
+        <p>$15.99</p></div>
+        
+      </div>
+    </div>
+    
+    <div class="column col-lg-3">
+      <div class="card">
+        <div class="box">
+        <img src="images/menu-3.png">
+        <h3>Tasty and Healthy</h3>
+        <p>$15.99</p></div>
+        
+      </div>
+    </div>
+    
+    <div class="column col-lg-3">
+      <div class="card">
+        <div class="box">
+        <img src="images/menu-4.png">
+        <h3>Tasty and Healthy</h3>
+        <p>$15.99</p></div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+  .card{
+    background-color: #2f2f7e;
+    justify-content: center;
+    text-align: center;
+    
+    
+  }
+  .box{
+    padding: 6rem;
+  }
+  .box-img{
+    height: 100px;
+    width: 100px;
+  }
+  .column{
+    
+    margin-left: 9rem;
+    margin-right: 9rem;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    flex: auto;
+  }
+  @media (max-width: 768px){
+    .column{
+        margin: auto;
+    }
+  }
